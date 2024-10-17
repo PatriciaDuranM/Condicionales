@@ -82,8 +82,7 @@ function division(number) {
     console.log(number + " es divisible por 5");
   } else if (number % 5 === 0 && number % 3 === 0) {
     console.log(number + " es divisible por 3 y por 5");
-  } else number % 5 !== 0 && number % 3 !== 0;
-  {
+  } else {
     console.log(number);
   }
 }
