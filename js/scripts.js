@@ -78,14 +78,12 @@ number(8, 2, 21);
 function division(number) {
   if (number % 3 === 0 && number % 5 !== 0) {
     console.log(number + " es divisible por 3");
-  }
-  if (number % 5 === 0 && number % 3 !== 0) {
+  } else if (number % 5 === 0 && number % 3 !== 0) {
     console.log(number + " es divisible por 5");
-  }
-  if (number % 5 === 0 && number % 3 === 0) {
+  } else if (number % 5 === 0 && number % 3 === 0) {
     console.log(number + " es divisible por 3 y por 5");
-  }
-  if (number % 5 !== 0 && number % 3 !== 0) {
+  } else number % 5 !== 0 && number % 3 !== 0;
+  {
     console.log(number);
   }
 }
